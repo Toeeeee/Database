@@ -17,3 +17,8 @@ To sort the rows in the result set, add the ```order by``` clause to the ```sele
 
 ![m](https://github.com/Toeeeee/Database/blob/main/Images/Screenshot%20from%202023-01-06%2017-10-17.png?raw=true)
 
+```Descending```
+
+![mhttps://github.com/Toeeeee/Database/blob/main/Images/Screenshot%20from%202023-01-06%2017-29-39.png?raw=true)
+
+
