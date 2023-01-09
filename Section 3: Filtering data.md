@@ -88,8 +88,22 @@ The ```offset``` specifies the offset of the first row to return. The offset of 
 
 The ```row_count``` specifies the maximum number of rows to return.
 
+
+The LIMIT and ORDER BY clauses
+
 1) Using MySQL LIMIT to get the highest or lowest rows
 
 2) Using MySQL LIMIT clause for pagination
 
-This query uses the ```COUNT(*)``` aggregate function to get the total rows from the table
+    This query uses the ```COUNT(*)``` aggregate function to get the total rows from the table
+
+3) Using MySQL LIMIT to get the nth highest or lowest value
+
+    SELECT select_list
+    FROM table_name
+    ORDER BY sort_expression
+    LIMIT n-1, 1;
+
+
+MySQL LIMIT & DISTINCT clauses
+
