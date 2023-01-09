@@ -42,7 +42,7 @@ Use the MySQL DISTINCT clause to remove duplicate rows from the result set retur
         sort_expression;
 
 
-### ```and```
+### ``` and```
 
 
 ### ```or```
@@ -61,4 +61,14 @@ Use the MySQL DISTINCT clause to remove duplicate rows from the result set retur
 
 ### ```like```
 
+
+1) Using MySQL LIKE operator with the percentage (%) wildcard
+
+2) Using MySQL LIKE operator with underscore ( _ ) wildcard 
+
+3) Using MySQL NOT LIKE operator
+
+    The backslash character (\) is the default escape character, if you don’t specify the escape character explicitly.
+
+### ```linit``` 
 
