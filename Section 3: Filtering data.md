@@ -1,6 +1,6 @@
 # Section 3: Filtering data 
 
-```where```
+### ```where```
 
 1) Using MySQL WHERE clause with equality operator example
 
