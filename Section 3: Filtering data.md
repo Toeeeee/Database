@@ -42,7 +42,7 @@ Use the MySQL DISTINCT clause to remove duplicate rows from the result set retur
         sort_expression;
 
 
-### ``` and```
+### ```and```
 
 
 ### ```or```
