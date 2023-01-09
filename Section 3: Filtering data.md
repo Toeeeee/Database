@@ -27,3 +27,38 @@
     |>|
     |<=|
     |>=|
+
+### ```distinct```
+
+Use the MySQL DISTINCT clause to remove duplicate rows from the result set returned by the SELECT clause.
+
+    SELECT DISTINCT
+        select_list
+    FROM
+        table_name
+    WHERE 
+        search_condition
+    ORDER BY 
+        sort_expression;
+
+
+### ```and```
+
+
+### ```or```
+
+### ```in```
+
+###  ```not in```
+
+### ```between```
+
+1) Using MySQL BETWEEN with numbers
+
+2) Using MySQL BETWEEN operator with dates 
+
+
+
+### ```like```
+
+
