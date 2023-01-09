@@ -23,6 +23,7 @@ MySQL supports the following types of joins:
 The joined columns of both tables have the same name, you can use the ```USING``` syntax
 
 Ex: 
+
 ![m](https://github.com/Toeeeee/MySQL/blob/main/Images/Screenshot%20from%202023-01-09%2015-07-00.png?raw=true)
 
     SELECT 
