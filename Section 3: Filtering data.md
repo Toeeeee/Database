@@ -99,10 +99,10 @@ The LIMIT and ORDER BY clauses
 
 3) Using MySQL LIMIT to get the nth highest or lowest value
 
-    SELECT select_list
-    FROM table_name
-    ORDER BY sort_expression
-    LIMIT n-1, 1;
+       SELECT select_list
+       FROM table_name
+       ORDER BY sort_expression
+       LIMIT n-1, 1;
 
 
 MySQL LIMIT & DISTINCT clauses
