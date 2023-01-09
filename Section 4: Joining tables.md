@@ -9,7 +9,7 @@ MySQL supports the following types of joins:
 
 ---
 
-## ```Inner Join ```
+### ```Inner Join ```
 
     SELECT 
         select_list
@@ -86,4 +86,7 @@ If the join_condition uses the equal operator (=) and the joined columns of both
     FROM t1
     RIGHT JOIN t2 USING(column_name);
 
-    
+----
+
+### ```Cross Join```
+
