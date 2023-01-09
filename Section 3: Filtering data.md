@@ -70,5 +70,26 @@ Use the MySQL DISTINCT clause to remove duplicate rows from the result set retur
 
     The backslash character (\) is the default escape character, if you don’t specify the escape character explicitly.
 
-### ```linit``` 
+### ```limit``` 
 
+
+The LIMIT clause is used in the SELECT statement to constrain the number of rows to return
+
+
+    SELECT 
+        select_list
+    FROM
+        table_name
+    LIMIT [offset,] row_count;
+
+In this syntax:
+
+The ```offset``` specifies the offset of the first row to return. The offset of the first row is 0, not 1.
+
+The ```row_count``` specifies the maximum number of rows to return.
+
+1) Using MySQL LIMIT to get the highest or lowest rows
+
+2) Using MySQL LIMIT clause for pagination
+
+This query uses the ```COUNT(*)``` aggregate function to get the total rows from the table
