@@ -91,3 +91,24 @@ If the join_condition uses the equal operator (=) and the joined columns of both
 
 ### ```Cross Join```
 
+
+
+    SELECT * FROM t1
+    CROSS JOIN t2;
+
+
+If you add a WHERE clause, in case table t1 and t2 has a relationship, the CROSS JOIN works like the INNER JOIN clause as shown in the following query
+
+Ex: 
+
+    SELECT * FROM t1
+    CROSS JOIN t2
+    WHERE t1.id = t2.id;
+
+
+----
+
+### ```Self Join```
+
+
+The self join is often used to query hierarchical data or to compare a row with other rows within the same table.
